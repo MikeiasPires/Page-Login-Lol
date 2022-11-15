@@ -3,12 +3,78 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
-    
+    max-width: 100vw;
 }
 
 #Container{
    width: 100px;
    height: 100px;
-   margin: 40px 30px;
+   margin: 50px 30px;
 
+}
+
+#Tittle{
+    margin-left: 42px;
+    font-size: 35px;
+
+}
+
+.inputstyle{
+    background-color: #f0f2f5;
+    display: block;
+    margin: 20px 42px;
+    padding: 10px;
+    border-radius: 4px ;
+    width: 400px;
+    height: 70px;
+}
+
+input{
+    font-size: 16px;
+    font-weight: bold;
+    border: transparent;
+}
+
+input::placeholder{
+    font-size: 13px;
+    font-weight: bold;
+    border: transparent;
+}
+
+#Checkbox {
+    display: inline;
+    color: #757581;
+    font-weight: bold;
+    display: flex;
+    justify-items: center;
+    gap: 11px;
+}
+#Checkcss {
+    width: 20px;
+    height: 20px;
+    margin-left: 43px;  
+    overflow: hidden;
+    border: 1px solid transparent;
+    
+}
+
+#ButtonGO {
+    margin: 70px 190px;
+    width: 65px;
+    height: 65px;
+    border-radius: 18px;
+    border:  2px solid #000000;
+    background-image: url("./assets/seta-direita.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+}
+
+
+#backgroundlogin{
+position: relative;
+bottom: 500px;
+left: 200px;
+width: 800px;
+height: 400px;
 }
